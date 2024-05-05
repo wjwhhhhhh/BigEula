@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -rdynamic  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -shared -Wl,-soname,libBIGEULA.so -o lib/libBIGEULA.so CMakeFiles/BIGEULA.dir/code/log.cpp.o CMakeFiles/BIGEULA.dir/code/unti.cpp.o 

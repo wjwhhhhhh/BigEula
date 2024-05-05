@@ -1,0 +1,1 @@
+/usr/bin/c++  -rdynamic  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -rdynamic CMakeFiles/test.dir/test/test.cpp.o -o bin/test  -Wl,-rpath,/root/BigEula/lib lib/libBIGEULA.so 

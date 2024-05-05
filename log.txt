@@ -1,0 +1,2 @@
+2024-05-05 20:31:22	4158138176	111	0	[ERROR]	[root]	/root/BigEula/test/test_log.cpp:20	hello world
+2024-05-05 20:31:22	4158138176	111	0	[ERROR]	[root]	/root/BigEula/test/test_log.cpp:22	hello world
