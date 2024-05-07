@@ -18,7 +18,7 @@
 #define BIGEULA_LOG_DEBUG(logger)\
   BIGEULA_LOG_LEVEL(logger,BigEula::LogLevel::DEBUG)
 #define BIGEULA_LOG_INFO(logger)\
-BIGEULA_LOG_LEVEL(logger,BigEula::LogLevel::INfO)
+BIGEULA_LOG_LEVEL(logger,BigEula::LogLevel::INFO)
 #define BIGEULA_LOG_WARN(logger)\
 BIGEULA_LOG_LEVEL(logger,BigEula::LogLevel::WARN)
 #define BIGEULA_LOG_ERROR(logger)\
@@ -35,8 +35,8 @@ BIGEULA_LOG_LEVEL(logger,BigEula::LogLevel::FATAL)
 #define BIGEULA_LOG_FMT_WARN(logger, fmt, ...) BIGEULA_LOG_FMT_LEVEL(logger, BigEula::LogLevel::WARN, fmt, __VA_ARGS__)
 #define BIGEULA_LOG_FMT_ERROR(logger, fmt, ...) BIGEULA_LOG_FMT_LEVEL(logger, BigEula::LogLevel::ERROR, fmt, __VA_ARGS__)
 #define BIGEULA_LOG_FMT_FATAL(logger, fmt, ...) BIGEULA_LOG_FMT_LEVEL(logger, BigEula::LogLevel::FATAL, fmt, __VA_ARGS__)
-#define BIGEULA_LOG_ROOT() BigEula::LoggerMgr::getInstance()->getRoot()
-#define BIGEULA_LOG_NAME(name) sylar::LoggerMgr::getInstance()->getLogger(name)
+#define BIGEULA_LOG_ROOT BigEula::LoggerMgr::getSingleton()->getRoot
+#define BIGEULA_LOG_NAME(name) sylar::LoggerMgr::getSingleton()->getLogger(name)
 namespace BigEula
 {
   // //

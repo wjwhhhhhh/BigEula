@@ -1,6 +1,7 @@
 #ifndef BIGEULA_UTIL_H
 #define BIGEULA_UTIL_H
 #include <pthread.h>
+#include <cxxabi.h>
 namespace BigEula
 {
     pthread_t GetTheadId();

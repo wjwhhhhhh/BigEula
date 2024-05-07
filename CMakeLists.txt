@@ -6,7 +6,8 @@ set(CMAKE_CXX_FLAGS "$ENV{CXXFALGS} -rdynamic  -ggdb -std=c++11 -Wall -Wno-depre
 set(CMAKE_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/build)
 set(LIB_SRC
     code/log.cpp
-    code/unti.cpp
+    code/util.cpp
+    code/config.cpp
 )
 
 add_library(BIGEULA SHARED ${LIB_SRC})

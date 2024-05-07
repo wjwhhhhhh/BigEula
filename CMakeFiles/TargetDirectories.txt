@@ -1,5 +1,0 @@
-/root/BigEula/CMakeFiles/BIGEULA.dir
-/root/BigEula/CMakeFiles/test_log.dir
-/root/BigEula/CMakeFiles/test_config.dir
-/root/BigEula/CMakeFiles/edit_cache.dir
-/root/BigEula/CMakeFiles/rebuild_cache.dir
